@@ -1,4 +1,4 @@
-s/**
+/**
  * @file constants.hpp
  * @brief Window/grid layout constants and global enumerations shared by all modules.
  */
