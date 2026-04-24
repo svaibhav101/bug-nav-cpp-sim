@@ -7,16 +7,16 @@ An interactive, grid-based visualiser for the **Bug0**, **Bug1**, and **Bug2** p
 ## Screenshots
 
 ### Editor - vertical wall map loaded
-![Editor view](assets/wall.png)
+![Editor view](docs/images/wall.png)
 
 ### Bug 0 - done in 85 steps
-![Bug0 result](assets/wall_b0.png)
+![Bug0 result](docs/images/wall_b0.png)
 
 ### Bug 1 - done in 164 steps (full circumnavigation)
-![Bug1 result](assets/wall_b1.png)
+![Bug1 result](docs/images/wall_b1.png)
 
 ### Bug 2 - done in 85 steps (M-line exit)
-![Bug2 result](assets/wall_b2.png)
+![Bug2 result](docs/images/wall_b2.png)
 
 ---
 
