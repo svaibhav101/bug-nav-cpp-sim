@@ -1,0 +1,8 @@
+<doxygenlayout version="1.0">
+  <navindex>
+    <tab type="mainpage" visible="yes" title="Overview"/>
+    <tab type="modules" visible="yes"/>
+    <tab type="classes" visible="yes"/>
+    <tab type="files" visible="yes"/>
+  </navindex>
+</doxygenlayout>

@@ -1,0 +1,88 @@
+# ==== Project ====
+PROJECT_NAME           = "BugPlanner"
+PROJECT_BRIEF          = "Robot navigation using Bug algorithms (Bug0, Bug1, Bug2)"
+OUTPUT_DIRECTORY       = @CMAKE_BINARY_DIR@/docs
+CREATE_SUBDIRS         = NO
+
+# ==== Input ====
+INPUT                  = @CMAKE_SOURCE_DIR@/include \
+                         @CMAKE_SOURCE_DIR@/src \
+                         @CMAKE_SOURCE_DIR@/README.md
+FILE_PATTERNS          = *.hpp *.cpp
+RECURSIVE              = YES
+
+# ==== Build Behavior ====
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+
+# ==== Parsing ====
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = NO
+
+# ==== Warnings ====
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = NO
+
+# ==== Output formats ====
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+GENERATE_XML           = NO
+
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+HTML_COLORSTYLE_HUE    = 210
+HTML_DYNAMIC_SECTIONS  = YES
+
+# ==== Source browsing ====
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+
+# ==== Diagrams (Graphviz) ====
+HAVE_DOT               = YES
+DOT_NUM_THREADS        = 0
+
+# Core diagrams
+CLASS_DIAGRAMS         = YES
+COLLABORATION_GRAPH    = YES
+GROUP_GRAPHS           = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+# Graph tuning
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+DOT_GRAPH_MAX_NODES    = 75
+MAX_DOT_GRAPH_DEPTH    = 3
+
+# Cleaner visuals
+DOT_TRANSPARENT        = YES
+DOT_MULTI_TARGETS      = YES
+
+# ==== Layout ====
+GENERATE_TREEVIEW      = YES
+FULL_PATH_NAMES        = NO
+STRIP_FROM_PATH        = @CMAKE_SOURCE_DIR@
+
+# ==== Misc ====
+QUIET                  = NO
+JAVADOC_AUTOBRIEF      = YES
+MULTILINE_CPP_IS_BRIEF = YES
+
+
+LAYOUT_FILE            = @CMAKE_SOURCE_DIR@/docs/DoxygenLayout.xml
+HTML_EXTRA_STYLESHEET  = @CMAKE_SOURCE_DIR@/docs/custom.css
+
+UML_LOOK               = YES
+TEMPLATE_RELATIONS     = YES
+DOT_UML_DETAILS        = YES
+
+USE_MDFILE_AS_MAINPAGE = @CMAKE_SOURCE_DIR@/README.md
+MARKDOWN_SUPPORT       = YES

@@ -1,0 +1,61 @@
+# Bug Path Planner map
+# S x y  -> start position
+# G x y  -> goal position
+# K x y  -> checkpoints
+# O x y  -> obstacle cell
+S 3 20
+G 50 20
+O 18 2
+O 18 3
+O 18 4
+O 18 5
+O 18 6
+O 18 7
+O 18 8
+O 18 9
+O 18 10
+O 18 11
+O 36 11
+O 18 12
+O 36 12
+O 18 13
+O 36 13
+O 18 14
+O 36 14
+O 18 15
+O 36 15
+O 18 16
+O 36 16
+O 18 17
+O 36 17
+O 18 18
+O 36 18
+O 18 19
+O 36 19
+O 18 20
+O 36 20
+O 18 21
+O 36 21
+O 18 22
+O 36 22
+O 18 23
+O 36 23
+O 18 24
+O 36 24
+O 18 25
+O 36 25
+O 18 26
+O 36 26
+O 18 27
+O 36 27
+O 18 28
+O 36 28
+O 36 29
+O 36 30
+O 36 31
+O 36 32
+O 36 33
+O 36 34
+O 36 35
+O 36 36
+O 36 37

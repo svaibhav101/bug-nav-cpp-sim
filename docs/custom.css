@@ -1,0 +1,15 @@
+/* Cleaner fonts */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Improve code blocks */
+div.fragment {
+    border-radius: 6px;
+    padding: 8px;
+}
+
+/* Highlight headings */
+h1, h2, h3 {
+    color: #2c3e50;
+}
